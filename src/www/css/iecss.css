@@ -1,0 +1,12 @@
+/* IE CSS Document */
+body {font-size:x-small;f\ont-size:small}/*ie5 and 5.5. that are one size out*/
+body table{font-size:x-small;f\ont-size:small}
+
+.threebox{display:block}
+.three-inner{
+	display:block;
+	width:901px;
+	background:url(../images/3box.gif) repeat-y 0 0;
+}
+.box{display:inline;float:left}
+* html .column1,* html .column2{height:200px}

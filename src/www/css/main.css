@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* Main CSS Document */
+body {
+	line-height:1.2;
+	background:#fff;
+	font-size:13px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#000;
+	text-align:center;
+	padding:0 0 20px;
+}
+#outer{
+	width:901px;
+	margin:auto;
+	text-align:left;
+	background:#fff;
+	z-index:1;
+	position:relative;
+	padding:37px 0 1px;
+}
+
+#logo{float:left}
+#logo,#logo a, #logo em{
+	margin:0;
+	width:267px;
+	height:104px;
+	cursor:pointer;
+	display:block;
+	text-decoration:none;
+	position:relative;
+	overflow:hidden;
+	clear:both;
+}
+#logo em{
+	background:url(../images/logo.jpg) no-repeat 0 100%;
+	position:absolute;
+	left:0;
+	top:0;
+}
+ul.flags{
+	position:absolute;
+	top:0;
+	left:202px;
+	width:49px;
+}
+ul.flags li,ul.flags li a,ul.flags li em{
+	float:left;
+	width:16px;
+	height:37px;
+	cursor:pointer;
+	position:relative;
+	overflow:hidden;
+	text-decoration:none;
+}
+ul.flags li{margin:0 8px 0 0;display:inline;}
+ul.flags li a:hover{text-decoration:none;visibility:visible}
+ul.flags li em{
+	position:absolute;
+	left:0;
+	top:0;
+	background:url(../images/flags.gif) no-repeat 0 0;
+}
+ul.flags li.dan a em{background-position:0 0}
+ul.flags li.eng a em{background-position:-25px 0}
+ul.flags li.dan a:hover em{background-position:0 -37px}
+ul.flags li.eng a:hover em{background-position:-25px -37px}
+/* IE needs this .top */
+.top{
+	width:901px;
+	overflow:hidden;
+}
+
+/*navigation*/
+#nav{
+	float:left;
+	width:618px;
+	margin:80px 0 0 16px;
+	display:inline;
+}
+#nav li{
+	float:left;
+	width:102px;
+	border-right:1px solid #757575;
+	font-size:11px;
+	height:16px;
+	line-height:16px;
+	text-align:center;
+	color:#000;
+}
+#nav li.current{border-right:1px solid #c8c8c8}
+#nav li a{
+	float:left;
+	width:102px;
+	color:#000;
+	height:16px;
+	line-height:16px;
+}
+#nav li a:visited{color:#000}
+#nav li a:hover,#nav li.current{font-weight:bold}
+#header{
+	width:901px;
+	clear:both;
+	padding:11px 0 11px;
+	border-top:1px solid #999;
+	border-bottom:1px solid #c9c9c9;
+	position:relative;
+	overflow:hidden
+}
+#header img{
+	display:block;
+	margin:auto;
+	position:relative;
+	z-index:1;
+	border-bottom:1px solid #947a69
+}
+/* this b element holds the overlay swirl effect */
+/* the swirl is bigger than the space available but the parent is overflow hidden which allows the swirl to me moved around a bit to show different parts */
+#header b{
+	position:absolute;
+	top:-30px;
+	right:-100px;
+	width:656px;
+	height:455px;
+	z-index:2;
+	background:url(../images/overlay2.png) no-repeat 0 0;
+}
+#header h2{
+	position:absolute;
+	bottom:21px;
+	left:14px;
+	z-index:3;
+	color:#fff;
+	font-size:30px;
+	margin:0;
+}
+#header p{margin:0}
+
+#main{
+	width:901px;
+	clear:both;
+	padding:14px 0;
+	border-bottom:1px solid #9c9c9c;
+	overflow:hidden;
+}
+.threebox{
+	display:table;
+	width:901px;
+}
+.three-inner{display:table-row;vertical-align:top}
+.box{
+	display:table-cell;
+	vertical-align:top;
+	padding:9px 10px 7px 14px;
+	border-right:7px solid #fff;
+	line-height:1.6;
+}
+.box h3{
+	height:26px;
+	line-height:26px;
+	margin:-9px -10px 9px -14px;
+	position:relative;
+	text-indent:14px;
+	background:url(../images/flake2.png) no-repeat 95% 50%;
+	color:#000;
+	font-size:14px;
+	text-transform:uppercase;
+}
+.box h3 a,.box h3 a:visited,.box h4 a, .box h4 a:visited{color:#000}
+.news{
+	width:427px;
+	margin:0;
+	background:#eea6a6;
+}
+.news h3{background-color:#dd4c4c}
+.fact{
+	width:198px;
+	background:#b2e0f1;
+}
+.fact h3{background-color:#64c0e2}
+.donate{
+	width:196px;
+	margin:0;
+	background:#adeba9;
+	border:none;
+	padding-left:8px;
+	width:196px;
+}
+.donate h3{
+	background-color:#5bd653;
+	margin:-9px -10px 9px -8px;
+}
+.box h4{font-size:11px;margin:0}
+.box p{margin:0 0 1.8em;font-size:11px}
+.box p.last{margin-bottom:0}
+p.imgr{
+	float:right;
+	margin:-15px 0 10px 15px!important;
+	position:relative;
+	display:inline;
+}
+p.img{margin:0 0 6px}
+.box p.donatenow{
+	margin:35px 0 10px 1px;
+	float:right;
+}
+
+/* footer */
+#footer{
+	clear:both;
+	width:901px;
+	font-size:10px;
+	padding:10px 0;
+	text-align:center;
+}
+#footer p,#footer address{
+	height:12px;
+}
+p.web{
+	float:left;
+	border-left:12px solid #99cf73;
+	padding:0 18px;
+	text-align:left;
+}
+p.cred{
+	float:right;
+	border-right:12px solid #99cf73;
+	padding:0 18px 0 18px;
+	text-align:right;
+}
+address{
+	font-style:normal;
+	font-weight:normal;
+}
+
+/* about page */
+.column1,.column2{
+	float:left;
+	font-size:12px;
+	color:#000;
+	width:425px;
+	margin:0 2px;
+	padding:0 0 5px;
+	display:inline;
+	line-height:2.0;
+	min-height:200px;
+}
+.column2{float:right}
+
+.column1 p,.column2 p{font-size:12px}
+
+
+
+
+
+
+
+
+

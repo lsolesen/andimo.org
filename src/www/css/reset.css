@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* reset css styles individually instead of universal selector. */
+/* based on http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/ */
+html, body{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	border-left:0;
+} 
+object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, em, img,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+em{font-style:italic}
+ol, ul {	list-style: none;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content:'';content:none;}
+table {border-collapse:collapse;border-spacing:0;}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+/* end reset styles */
+/* clearing technique */
+.clearfix:after {
+    content:"."; 
+    display:block; 
+    height:0; 
+    clear:both; 
+    visibility:hidden;
+}
+.clearfix {display:inline-block;}
+/* mac hide \*/
+.clearfix {display: block;}
+ /* End hide */
+/*........... do not change or amalgamate the above clearfix styles..................*/
+p,h1,h2,h3,h4,h5,h6,ul {margin-bottom:.5em}
+a img,img{border:none;display:block;}
+a{cursor:pointer!important;text-decoration:none}
+a{color:#333;}
+a:visited{color:#333;}
+a:hover{text-decoration:underline;}
+input{font-family:Verdana, Arial, Helvetica, sans-serif;vertical-align:midddle}
+input,label{vertical-align:middle}
+h1,h2,h3,h4,h5,h6{
+	font-weight:bold;
+	color:#000;
+	font-size:100%;
+}
+/* vendor specific styles */
+input[type="submit"]::-moz-focus-inner{
+  padding: 0;
+  border: none;
+}
+
+
+
+
