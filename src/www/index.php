@@ -40,7 +40,7 @@ class Andimo_CmsFactory
         $cms_id = $sites[$language];
 
         $debug = false;
-        $client = new IntrafacePublic_CMS_Client_XMLRPC($credentials, $cms_id, $debug);
+        $client = new IntrafacePublic_CMS_Client_XMLRPC($credentials, $cms_id, $debug, '', 'utf-8');
 
         $options = array(
             "cacheDir" => $GLOBALS["cache_dir"],

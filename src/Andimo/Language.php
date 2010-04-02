@@ -44,4 +44,8 @@ class Andimo_Language extends k_Component
         return $this->document;
     }
 
+    function getLanguage()
+    {
+        return $this->name();
+    }
 }

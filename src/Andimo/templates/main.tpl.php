@@ -16,7 +16,7 @@
         <ul id="nav">
             <!-- add class of current to list element and remove anchor on current page -->
             <?php foreach ($navigation as $nav): ?>
-                <li<?php if($nav['current'] == 'yes') echo ' class="current"';  ?>><a href="<?php e(url('/' . $nav['url_self'])); ?>"><?php e($nav['navigation_name']); ?></a></li>
+                <li<?php if($nav['current'] == 'yes') echo ' class="current"';  ?>><a href="<?php e(url('/' . $context->getLanguage() . '/' . $nav['url_self'])); ?>"><?php e($nav['navigation_name']); ?></a></li>
             <?php endforeach; ?>
         </ul>
     </div>
