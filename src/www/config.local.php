@@ -1,4 +1,7 @@
 <?php
+ini_set('display_errors', true);
+error_reporting(E_ALL);
+
 $GLOBALS['site_id'] = 42;
 $GLOBALS['private_key'] = 'JMskFBsyvYykDSjYFPXcTkQ3aZkipv75PCwsxKwpMLzH9qCstu';
 $GLOBALS['template_path'] = realpath(dirname(__FILE__) . '/../Andimo/templates');

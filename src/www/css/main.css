@@ -248,11 +248,7 @@ address{
 
 .column1 p,.column2 p{font-size:12px}
 
-
-
-
-
-
-
-
+.cms-align-right {
+    float: right;
+}
 
