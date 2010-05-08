@@ -37,7 +37,7 @@
         <p class="web">Webmaster</p>
         <p class="cred">Credits</p>
         <address>
-        Andimo . Amagerbrogade 86, 1 . Copenhagen . Denmark
+        Andimo . Liflandsgade 3, 3. tv . 2300 Copenhagen S . Denmark
         </address>
     </div>
 </div>
