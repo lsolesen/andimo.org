@@ -34,10 +34,10 @@
     </div>
     <!-- end main -->
     <div id="footer">
-        <p class="web">Webmaster</p>
-        <p class="cred">Credits</p>
+        <p class="web"><a href="mailto:rasmus@andimo.org">Webmaster</a></p>
+        <p class="cred"><a href="http://andimo.org/">Credits</a></p>
         <address>
-        Andimo . Liflandsgade 3, 3. tv . 2300 Copenhagen S . Denmark
+        Andimo . Liflandsgade 1B, 3. tv . 2300 Copenhagen S . Denmark
         </address>
     </div>
 </div>
